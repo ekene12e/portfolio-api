@@ -12,7 +12,7 @@ app.use(cors());
 
 dotenv.config();
 mongoose
-  .connect(process.env.MONGO)
+  .connect("mongodb+srv://ekenestanekeson:XT5qOGfXhaTKqGf0@test.geq1wyo.mongodb.net/")
   .then(() => {
     console.log("DBconnection sucessful");
   })
